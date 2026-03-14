@@ -1,0 +1,35 @@
+<?php
+
+use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('frontend.home');
+});
+Route::get('/privacy-policy', function () {
+    return view('frontend.privacy-policy');
+});
+Route::get('/terms-and-condition', function () {
+    return view('frontend.terms-and-condition');
+});
+
+Route::fallback(function () {
+    return response()->view('Error.404', [], 404);
+});
+
+
+
+require __DIR__ . '/auth.php';
+require __DIR__ . '/backend.php';
+require __DIR__ . '/frontend.php';
