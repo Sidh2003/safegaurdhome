@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    Page Name | Website Name
+    Privacy Policy | Safeguard Home Security
 @endsection
 @section('content')
     <section class="breadcrumb__area include-bg pt-150 pb-150" data-background="/frontend/my_img/bredcrum.jpg"

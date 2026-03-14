@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    Page Name | Website Name
+    Safeguard Home Security | Smart CCTV, Alarm & Home Protection Systems
 @endsection
 @section('content')
     <div class="tp-sidebar-menu ">

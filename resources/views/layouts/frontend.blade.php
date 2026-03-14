@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')</title>
-    <meta name="description" content="">
+    <meta name="description"
+        content="Safeguard Home provides advanced home security solutions including smart CCTV cameras, alarm systems, video doorbells, and remote monitoring. Protect your home and family with reliable, modern security technology and 24/7 protection.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
